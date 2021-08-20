@@ -1,0 +1,645 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /* CSS */
+  /* .top-form-after {
+    top: 46.8%;
+
+    right: 14%;
+  }
+
+  .bottom-form-after {
+    top: 55%;
+    right: 66px;
+  } */
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1281px to 1400px
+  */
+
+@media (min-width: 1281px) and (max-width: 1400px) {
+  /* CSS */
+
+  .header-cover-texts {
+    justify-content: space-around;
+    align-content: center;
+  }
+
+  .cover-left {
+    margin: 0;
+  }
+  /*
+  .cover-right {
+    width: 46%;
+  }*/
+  .cover-left h1 {
+    font-size: 60px;
+  }
+  .cover-right {
+  }
+  .solution-texts h2 {
+    font-size: 37px;
+  }
+
+  .solution-texts p {
+    padding: 0;
+    padding: 0 5px;
+  }
+
+  .solution-service-item {
+    text-align: center;
+    padding: 0px 10px;
+
+    padding: 20px 0;
+  }
+  .service-text h4 {
+    font-size: 20px;
+  }
+  .service-text p {
+    font-size: 16px;
+  }
+
+  .carousel-control-prev {
+    bottom: -281px;
+    left: 720px;
+  }
+
+  .carousel-control-next {
+    bottom: -281px;
+  }
+  .top-form-after {
+    top: 46.8%;
+
+    right: 14%;
+  }
+
+  .bottom-form-after {
+    top: 56.2%;
+    right: 14%;
+  }
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1200px to 1280px
+  */
+
+@media (min-width: 1200px) and (max-width: 1280px) {
+  .carousel-control-prev {
+    left: 879px;
+  }
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+  .header-cover-texts {
+    justify-content: space-around;
+    align-content: center;
+  }
+
+  .cover-left {
+    margin: 0;
+  }
+
+  .cover-right {
+  }
+  .cover-left h1 {
+    font-size: 60px;
+  }
+  .cover-right {
+  }
+  .solution-texts h2 {
+    font-size: 37px;
+  }
+
+  .solution-texts p {
+    padding: 0;
+    padding: 0 5px;
+  }
+
+  .solution-service-item {
+    text-align: center;
+    padding: 0px 10px;
+
+    padding: 20px 0;
+  }
+  .service-text h4 {
+    font-size: 20px;
+  }
+  .service-text p {
+    font-size: 16px;
+  }
+
+  .testi-box {
+    padding: 20px 75px;
+  }
+
+  .carousel-control-prev {
+    bottom: -281px;
+    left: 877px;
+  }
+
+  .carousel-control-next {
+    bottom: -281px;
+    right: 8px;
+  }
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (max-width: 991px) {
+  header .container {
+    position: relative;
+  }
+  header {
+    height: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+  .header-cover-texts {
+    justify-content: space-around;
+    align-items: center;
+  }
+  .cover-left {
+    margin-left: 0;
+  }
+  /*  .cover-left {
+    margin: 0;
+    width: 50%;
+  }*/
+
+  /*  .cover-right {
+    width: 46%;
+  }*/
+
+  .cover-left h1 {
+    font-size: 60px;
+  }
+  .cover-right {
+  }
+  .solution-texts h2 {
+    font-size: 37px;
+  }
+
+  .solution-texts p {
+    padding: 0;
+    padding: 0 5px;
+  }
+
+  .solution-service-item {
+    text-align: center;
+    padding: 0px 10px;
+
+    padding: 20px 0;
+  }
+  .service-text h4 {
+    font-size: 20px;
+  }
+  .service-text p {
+    font-size: 16px;
+  }
+
+  .project-box {
+    flex-direction: column;
+  }
+
+  .project-left {
+    flex-basis: 40%;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+
+  .green-box {
+    padding: 21px 19px;
+    right: 78px;
+    bottom: -41px;
+  }
+
+  .project-right-top h2 {
+    font-size: 40px;
+  }
+
+  .services-2 .solution-services {
+    text-align: center;
+    display: flex;
+    padding: 0;
+    padding-top: 60px;
+    flex-wrap: wrap;
+  }
+  .services-2 .solution-services .solution-service-item {
+    flex-basis: 50%;
+    padding: 10px;
+  }
+  .loan {
+    padding: 60px 0 0 0;
+  }
+
+  .testimonial {
+    padding: 40px 2px;
+  }
+
+  .testi-box {
+    padding: 10px 92px;
+  }
+
+  .testi-heading h6 {
+    font-size: 24px;
+  }
+  .testi-user-texts h4 {
+    font-size: 24px;
+  }
+  .testi-user-texts p {
+    font-size: 14px;
+  }
+
+  .carousel-control-prev {
+    bottom: -332px;
+    left: 497px;
+  }
+
+  .carousel-control-next {
+    right: 28px;
+    bottom: -332px;
+  }
+  .news-items {
+    text-align: center;
+  }
+  .news-item-1 {
+    flex-basis: 50%;
+  }
+  .footer-content1 {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+  .footer-content2 {
+    flex-basis: 50%;
+  }
+  .footer-content3 {
+    flex-basis: 50%;
+  }
+  .footer-content4 {
+    margin-top: 30px;
+    flex-basis: 100%;
+  }
+  .top-form-after {
+    top: 64.5%;
+  }
+
+  .bottom-form-after {
+    top: 72.2%;
+  }
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+
+  header {
+    height: 100vh;
+  }
+
+  .header-cover-texts {
+    justify-content: space-around;
+  }
+
+  /*  .cover-left {
+    margin: 0;
+    width: 40%;
+  }*/
+
+  /*  .cover-right {
+    width: 43%;
+  }*/
+
+  .cover-left h1 {
+    font-size: 60px;
+  }
+
+  .solution-texts h2 {
+    font-size: 37px;
+  }
+
+  .solution-texts p {
+    padding: 0;
+    padding: 0 5px;
+  }
+
+  .solution-service-item {
+    text-align: center;
+    padding: 0px 10px;
+
+    padding: 20px 0;
+  }
+
+  .service-text h4 {
+    font-size: 20px;
+  }
+  .service-text p {
+    font-size: 16px;
+  }
+  .loan {
+    padding: 60px 0 0 0;
+  }
+  .testimonial {
+    padding: 40px 2px;
+  }
+
+  .testi-box {
+    padding: 10px 92px;
+  }
+
+  .testi-heading h6 {
+    font-size: 24px;
+  }
+  .testi-user-texts h4 {
+    font-size: 24px;
+  }
+  .testi-user-texts p {
+    font-size: 14px;
+  }
+
+  .carousel-control-prev {
+    bottom: -253px;
+    left: 498px;
+    left: 700px;
+  }
+
+  .carousel-control-next {
+    right: 28px;
+    bottom: -253px;
+  }
+
+  .news-items {
+    text-align: center;
+  }
+  .news-item-1 {
+    flex-basis: 33%;
+  }
+
+  .footer-content1 {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+  .footer-content2 {
+    flex-basis: 13%;
+  }
+  .footer-content3 {
+    flex-basis: 13%;
+  }
+  .footer-content4 {
+    flex-basis: 50%;
+  }
+  .top-form-after {
+    top: 50.3%;
+  }
+
+  .bottom-form-after {
+    top: 61.4%;
+  }
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS */
+  .cover-left {
+    margin: 0;
+  }
+
+  .cover-left h1 {
+    font-size: 60px;
+  }
+
+  .solution-texts h2 {
+    font-size: 37px;
+  }
+
+  .solution-texts p {
+    padding: 0;
+    padding: 0 5px;
+  }
+
+  .solution-service-item {
+    text-align: center;
+    padding: 0px 10px;
+    border-bottom: 1px solid grey;
+    padding: 20px 0;
+  }
+
+  .project-box {
+    flex-direction: column;
+  }
+
+  .project-left {
+    flex-basis: 40%;
+    margin-bottom: 70px;
+  }
+
+  .green-box {
+    padding: 21px 19px;
+    right: 0px;
+  }
+
+  .project-right-top h2 {
+    font-size: 24px;
+  }
+
+  .services-2 .solution-services {
+    text-align: center;
+    display: flex;
+    padding: 0;
+    padding-top: 60px;
+    flex-wrap: wrap;
+  }
+  .services-2 .solution-services .solution-service-item {
+    flex-basis: 50%;
+    padding: 10px;
+  }
+  .loan {
+    padding: 60px 0 0 0;
+  }
+  .testimonial {
+    padding: 40px 2px;
+  }
+
+  .testi-box {
+    padding: 0;
+  }
+
+  .testi-heading h6 {
+    font-size: 16px;
+  }
+  .testi-user-texts h4 {
+    font-size: 15px;
+  }
+  .testi-user-texts p {
+    font-size: 12px;
+  }
+
+  .carousel-control-prev {
+    display: none;
+  }
+  .carousel-control-next {
+    display: none;
+  }
+  .testi-heading img {
+    display: none;
+  }
+  .news-item-1 {
+    flex-basis: 100%;
+  }
+  .footer-content1 {
+    flex-basis: 100%;
+  }
+  .footer-content2 {
+    flex-basis: 50%;
+    margin: 20px 0;
+  }
+  .footer-content3 {
+    flex-basis: 50%;
+    margin: 20px 0;
+  }
+  .footer-content4 {
+    flex-basis: 100%;
+  }
+  .top-form-after {
+    top: 65.5%;
+  }
+
+  .bottom-form-after {
+    top: 73.1%;
+  }
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+
+  .cover-left {
+    margin: 0;
+  }
+
+  .solution-texts h2 {
+    font-size: 37px;
+  }
+
+  .solution-texts p {
+    padding: 0;
+    padding: 0 5px;
+  }
+
+  .solution-service-item {
+    text-align: center;
+    padding: 0px 10px;
+    border-bottom: 1px solid grey;
+    padding: 20px 0;
+  }
+
+  .project-box {
+    flex-direction: column;
+  }
+
+  .project-left {
+    flex-basis: 40%;
+    margin-bottom: 70px;
+  }
+
+  .green-box {
+    padding: 21px 19px;
+    right: 0px;
+  }
+
+  .project-right-top h2 {
+    font-size: 24px;
+  }
+  .services-2 .solution-services {
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  .services-2 .solution-services .solution-service-item {
+    flex-basis: 50%;
+    padding: 10px;
+  }
+
+  .loan {
+    padding: 60px 0 0 0;
+  }
+
+  .testimonial {
+    padding: 40px 2px;
+  }
+
+  .testi-box {
+    padding: 0;
+  }
+
+  .testi-heading h6 {
+    font-size: 16px;
+  }
+  .testi-user-texts h4 {
+    font-size: 15px;
+  }
+  .testi-user-texts p {
+    font-size: 12px;
+  }
+
+  .carousel-control-prev {
+    display: none;
+  }
+  .carousel-control-next {
+    display: none;
+  }
+  .testi-heading img {
+    display: none;
+  }
+
+  .news-item-1 {
+    flex-basis: 100%;
+  }
+  .footer-content1 {
+    flex-basis: 100%;
+  }
+  .footer-content2 {
+    flex-basis: 100%;
+  }
+  .footer-content3 {
+    flex-basis: 100%;
+  }
+  .footer-content4 {
+    flex-basis: 100%;
+  }
+
+  .top-form-after {
+    top: 68.1%;
+  }
+
+  .bottom-form-after {
+    top: 74.8%;
+  }
+}
